@@ -3,7 +3,7 @@ import { MessageSquare } from 'lucide-react';
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+923074323319';
+    const phoneNumber = '+447495917185';
     const message = 'Hello! I would like to know more about Ringlify services.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

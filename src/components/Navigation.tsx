@@ -44,12 +44,6 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
-            <Button 
-              className="bg-ringlify-blue hover:bg-ringlify-dark-blue text-white px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg"
-              asChild
-            >
-              <Link to="/contact">Get Quote</Link>
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -82,12 +76,6 @@ const Navigation = () => {
                   {item.label}
                 </Link>
               ))}
-              <Button 
-                className="w-full mt-4 bg-ringlify-blue hover:bg-ringlify-dark-blue text-white"
-                asChild
-              >
-                <Link to="/contact" onClick={() => setIsOpen(false)}>Get Quote</Link>
-              </Button>
             </div>
           </div>
         )}

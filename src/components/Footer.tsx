@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-ringlify-accent" />
-                <span className="text-gray-300">Nazir Garden Society, Lahore, Pakistan</span>
+                <span className="text-gray-300">116A Ipswich Road, Colchester, United Kingdom CO40AE</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-ringlify-accent" />
@@ -34,8 +34,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MessageSquare className="h-5 w-5 text-ringlify-accent" />
-                <a href="https://wa.me/923074323319" className="text-gray-300 hover:text-white transition-colors">
-                  +92 307 4323319
+                <a href="https://wa.me/447495917185" className="text-gray-300 hover:text-white transition-colors">
+                  +44 7495 917185
                 </a>
               </div>
             </div>
