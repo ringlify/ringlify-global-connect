@@ -1,12 +1,14 @@
-// vite.config.ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // CHANGE THIS: set the correct base path for GitHub Pages + custom domain
   base: "https://ringlify.site/",
+
+  build: {
+    outDir: "dist"
+  },
 
   server: {
     host: "0.0.0.0",
