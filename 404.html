@@ -2,13 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <title>Redirecting…</title>
     <script>
-      // Redirect preserving path, query, and hash
-      const redirectTo = "/?redirect=" + encodeURIComponent(
-        location.pathname + location.search + location.hash
-      );
-      location.replace(redirectTo);
+      // GitHub Pages SPA redirect logic
+      const redirectTo =
+        "/" +
+        window.location.pathname
+          .replace(/^\/[^/]+/, "") +
+        window.location.search +
+        window.location.hash;
+
+      window.location.replace(redirectTo);
     </script>
   </head>
   <body>
