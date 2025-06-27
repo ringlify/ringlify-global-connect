@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Preserve full path + query + hash on reload
+      const redirectTo = "/" + "?redirect=" + encodeURIComponent(
+        window.location.pathname + window.location.search + window.location.hash
+      );
+      window.location.replace(redirectTo);
+    </script>
   </head>
   <body>
-    <p>Redirecting to home...</p>
+    <p>Redirecting...</p>
   </body>
 </html>
